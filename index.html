@@ -1,0 +1,26 @@
+<!Doctype html>
+<head>
+<title>LiveStream</title>
+<style>
+    canvas{ background:#eee; }
+    #video{
+        object-fit: fill;
+        position: absolute;
+        top:-1000px;
+        visibility: hidden;
+
+    }
+</style>
+</head>
+<body>
+
+<div class="booth">
+<video width="50%" id="video" autoplay controls></video>
+<canvas id="canvas"></canvas>
+
+<script src="video.js"></script>
+
+</div>
+
+
+</body>
